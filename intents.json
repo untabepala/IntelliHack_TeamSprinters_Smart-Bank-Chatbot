@@ -1,0 +1,463 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi!",
+        "Good Morning!",
+        "Good Evening",
+        "Good afternoon",
+        "Hey",
+        "Whats up",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hello. Welcome to Smart bank",
+        "Hi ! We are here to provide our service",
+        "Welcome",
+        "Hi there"
+      ]
+    },
+    {
+      "tag": "purchaselandconstructlater",
+      "patterns": [
+        "I want to purchase land to construct a house later",
+        "Can I get a loan for purchasing land to construct a house in the future?",
+        "How can I finance the purchase of land for future construction?"
+      ],
+      "responses": [
+        "Smart Bank provides loans for purchasing land with the intention of constructing a house later."
+      ]
+    },
+    {
+      "tag": "purchaselandconstructhouse",
+      "patterns": [
+        "I want to purchase land and construct a house",
+        "Can I get a loan for purchasing land and building a house on it?",
+        "How do I finance both land purchase and house construction?"
+      ],
+      "responses": [
+        "Smart Bank offers financing options for both land purchase and house construction."
+      ]
+    },
+    {
+      "tag": "constructhouseownedland",
+      "patterns": [
+        "I own land and want to construct a house on it",
+        "Can I get a loan to build a house on my own land?",
+        "How do I finance house construction on my own land?"
+      ],
+      "responses": [
+        "Smart Bank provides loans for constructing a house on land owned by the borrower."
+      ]
+    },
+    {
+      "tag": "purchasehousecondo",
+      "patterns": [
+        "I want to purchase a house/condo",
+        "Can I get a loan to buy a house or condominium unit?",
+        "How can I finance the purchase of a house or condo?"
+      ],
+      "responses": [
+        "Smart Bank offers financing options for purchasing houses or condominium units."
+      ]
+    },
+    {
+      "tag": "completeconstruction",
+      "patterns": [
+        "I need to complete construction/renovation/extension/repair of an existing property",
+        "Can I get a loan to complete construction or renovation of a property?",
+        "How do I finance completion of construction or renovation?"
+      ],
+      "responses": [
+        "Smart Bank provides loans for completing construction, renovation, extension, or repair of existing properties."
+      ]
+    },
+    {
+      "tag": "landscapinginteriordecoration",
+      "patterns": [
+        "I want to landscape or decorate my house/condo",
+        "Can I get a loan for landscaping or interior decoration?",
+        "How do I finance landscaping or interior decoration?"
+      ],
+      "responses": [
+        "Smart Bank offers financing options for landscaping and interior decoration of houses or condominium units."
+      ]
+    },
+    {
+      "tag": "constructionforsale",
+      "patterns": [
+        "I am a property developer and want to construct houses or apartments for sale",
+        "Can I get a loan for construction of houses or apartments for sale?",
+        "How can I finance construction for sale?"
+      ],
+      "responses": [
+        "Smart Bank provides financing options for construction of houses or apartments for sale."
+      ]
+    },
+    {
+      "tag": "loanquantum",
+      "patterns": [
+        "What is the maximum loan amount available?",
+        "Tell me about the loan quantum for housing loans",
+        "How much loan can I get for housing purposes?"
+      ],
+      "responses": [
+        "The maximum loan amount for housing purposes is Rs. 50 Million, with a repayment period of up to 25 years."
+      ]
+    },
+    {
+      "tag": "repaymentperiod",
+      "patterns": [
+        "What is the repayment period for housing loans?",
+        "How long is the repayment period for housing loans?",
+        "Tell me about the repayment duration for housing loans."
+      ],
+      "responses": [
+        "The repayment period for housing loans is up to 25 years."
+      ]
+    },
+    {
+      "tag": "areaofoperation",
+      "patterns": [
+        "In which areas does the housing loan scheme operate?",
+        "What is the geographical coverage of the housing loan scheme?",
+        "Tell me about the areas covered by the housing loan scheme."
+      ],
+      "responses": [
+        "The housing loan scheme operates across all islands."
+      ]
+    },
+    {
+      "tag": "eligibility",
+      "patterns": [
+        "Who is eligible for a housing loan?",
+        "What are the eligibility criteria for housing loans?",
+        "Am I eligible for a housing loan?"
+      ],
+      "responses": [
+        "Sri Lankan citizens above the age of 18, residents of Sri Lanka, and individuals with a stable income source are eligible for housing loans from Smart Bank."
+      ]
+    },
+    {
+      "tag": "rateofadvance",
+      "patterns": [
+        "What are the rates of advance for different purposes?",
+        "Tell me about the rates of advance for various housing loan purposes.",
+        "How much loan can I get for different purposes?"
+      ],
+      "responses": [
+        "The rates of advance vary depending on the purpose. Let me provide you with the details."
+      ]
+    },
+    {
+      "tag": "securitycollateral",
+      "patterns": [
+        "What collateral is required for housing loans?",
+        "Can you explain the security requirements for housing loans?"
+      ],
+      "responses": [
+        "Smart Bank accepts mortgage over the subject property or property owned by the applicant as collateral for housing loans."
+      ]
+    },
+    {
+      "tag": "conditionsapply",
+      "patterns": [
+        "What are the conditions applicable to the housing loan scheme?",
+        "Are there any terms and conditions for housing loans?"
+      ],
+      "responses": [
+        "Smart Bank reserves the right to change, add, or revise any condition, term, or statement in the housing loan scheme. For more information, please contact the Manager at your nearest Smart Bank branch or call center."
+      ]
+    },
+    {
+      "tag": "contactinformation",
+      "patterns": [
+        "How can I contact Smart Bank for more information?",
+        "Where can I get more information about the housing loan scheme?"
+      ],
+      "responses": [
+        "For more information, please contact the Manager at your nearest Smart Bank branch or call center: 1234"
+      ]
+    },
+{
+  "tag": "housingloan_university_staff",
+  "patterns": [
+    "Tell me about the housing loan for university staff.",
+    "What are the terms for housing loans for university staff?",
+    "I'm interested in the housing loan scheme for university staff."
+  ],
+  "responses": [
+    "Smart Bank offers a special housing loan scheme for university staff who have a minimum of 5 years of service and are confirmed in service at universities registered under the Universities Act No: 16 of 1978.",
+    "This housing loan scheme is available only once during the period of service."
+  ]
+},
+{
+  "tag": "loan_facility_quantum_university_staff",
+  "patterns": [
+    "What is the quantum of the loan facility for university staff?"
+  ],
+  "responses": [
+    "Under this scheme, academic staff and non-academic staff grade officers are eligible for a loan of Rs. 2.0 million, while non-staff grade officers are eligible for a loan of Rs. 1.0 million."
+  ]
+},
+{
+  "tag": "conditions_apply_university_staff",
+  "patterns": [
+    "Are there any conditions that apply to the housing loan for university staff?"
+  ],
+  "responses": [
+    "Smart Bank reserves the right to change, add, or revise any condition, term, or statement in this facility."
+  ]
+},
+{
+  "tag": "educational_loan_features",
+  "patterns": [
+    "What are the features of Smart Bank Educational Loans?",
+    "Tell me about the features of educational loans."
+  ],
+  "responses": [
+    "Smart Bank Educational Loans provide the financial support you need to achieve your higher educational goals at local or foreign universities. You have the option of paying only the interest until the degree is complete. You can receive the maximum loan amount necessary for your requirements, with speedy service and no hidden costs."
+  ]
+},
+{
+  "tag": "loan_amount_educational_loan",
+  "patterns": [
+    "What is the maximum loan amount for educational loans?"
+  ],
+  "responses": [
+    "The maximum loan amount is Rs. 10.0 Million or 80% of the course fee, whichever is less."
+  ]
+},
+{
+  "tag": "repayment_period_educational_loan",
+  "patterns": [
+    "What is the repayment period for educational loans?"
+  ],
+  "responses": [
+    "The maximum repayment period is 7 years, with a grace period of 4 years."
+  ]
+},
+{
+  "tag": "security_educational_loan",
+  "patterns": [
+    "What security is required for educational loans?"
+  ],
+  "responses": [
+    "For facilities over Rs. 500,000, mortgage of property is required."
+  ]
+},
+{
+  "tag": "purpose_of_loan_educational_loan",
+  "patterns": [
+    "What are the purposes for which educational loans can be used?"
+  ],
+  "responses": [
+    "Educational loans can be used for registration fees, course fees, examination fees, and payments for travel expenses for foreign universities."
+  ]
+},
+{
+  "tag": "eligibility_educational_loan",
+  "patterns": [
+    "Who is eligible for educational loans?"
+  ],
+  "responses": [
+    "Smart Bank customers and students are eligible. Applicants should have a minimum of 3 passes at G.C.E. (A/L) to follow degree courses, should follow Post Graduate Examinations and Diplomas relevant to current employment, and should obtain the approval of the University Grant Commission of Sri Lanka for local/foreign educational institute, university, and course."
+  ]
+},
+{
+  "tag": "required_documents_educational_loan",
+  "patterns": [
+    "What documents are required for applying for educational loans?"
+  ],
+  "responses": [
+    "Loan Application, Letter from University, Proof of identification (NIC/Passport)"
+  ]
+},
+{
+  "tag": "laptop_loan_scheme",
+  "patterns": [
+    "What is the Laptop Loan scheme about?",
+    "Tell me about the Laptop Loan scheme."
+  ],
+  "responses": [
+    "Laptop Loan is a special scheme to enable University Students to purchase Laptop Computers."
+  ]
+},
+{
+  "tag": "loan_amount_laptop_loan",
+  "patterns": [
+    "What is the maximum loan amount for Laptop Loans?"
+  ],
+  "responses": [
+    "The maximum loan amount is up to Rs. 75,000."
+  ]
+},
+{
+  "tag": "rate_of_interest_laptop_loan",
+  "patterns": [
+    "What is the rate of interest for Laptop Loans?"
+  ],
+  "responses": [
+    "The rate of interest is 0%, subject to conditions. During NPA, customer should pay monthly AWPLR+0.5 subject to a floor rate of 8.5%."
+  ]
+},
+{
+  "tag": "repayment_period_laptop_loan",
+  "patterns": [
+    "What is the repayment period for Laptop Loans?"
+  ],
+  "responses": [
+    "The repayment period is up to a maximum of 3 years."
+  ]
+},
+{
+  "tag": "collateral_laptop_loan",
+  "patterns": [
+    "What collateral is required for Laptop Loans?"
+  ],
+  "responses": [
+    "A Personal Guarantee is required as collateral."
+  ]
+},
+{
+  "tag": "eligibility_laptop_loan",
+  "patterns": [
+    "Who is eligible for Laptop Loans?"
+  ],
+  "responses": [
+    "Laptop Loans are only for students in National Universities. It can be a joint loan with a parent/guardian."
+  ]
+},
+{
+  "tag": "required_documents_laptop_loan",
+  "patterns": [
+    "What documents are required for applying for Laptop Loans?"
+  ],
+  "responses": [
+    "Duly completed Application, Student Record Book and Student ID, NIC of Student, Parent/Guardian, and Guarantor, Recommendation Letter by an Authorized Person of the University."
+  ]
+},
+{
+  "tag": "pensioner_loan_scheme",
+  "patterns": [
+    "What is the Government Pensioner’ Loan Scheme about?",
+    "Tell me about the Pensioner’ Loan Scheme for Government Pensioners."
+  ],
+  "responses": [
+    "The Government Pensioner’ Loan Scheme aims to provide financial support for various purposes such as starting a business, educational expenses of children, medical expenses, house repairs, and other legally acceptable purposes to uplift the lifestyle of pensioners."
+  ]
+},
+{
+  "tag": "eligibility_pensioner_loan",
+  "patterns": [
+    "Who is eligible for the Pensioner’ Loan Scheme?"
+  ],
+  "responses": [
+    "Government Pensioners below 75 years of age are eligible. The pension should be remitted to a Smart Bank Account (Joint accounts will not be permitted)."
+  ]
+},
+{
+  "tag": "loan_amount_pensioner_loan",
+  "patterns": [
+    "What is the maximum loan amount for Pensioner’ Loan Scheme?"
+  ],
+  "responses": [
+    "There is no upper limit for the loan amount. However, the monthly installment of the loan should be below 70% of the gross pension."
+  ]
+},
+{
+  "tag": "repayment_period_pensioner_loan",
+  "patterns": [
+    "What is the repayment period for Pensioner’ Loan Scheme?"
+  ],
+  "responses": [
+    "The repayment period is a maximum of 15 years."
+  ]
+},
+{
+  "tag": "security_pensioner_loan",
+  "patterns": [
+    "What security is required for Pensioner’ Loan Scheme?"
+  ],
+  "responses": [
+    "Pension should be remitted to a Smart Bank Account and a Decreasing Term Assurance Policy (DTA Policy) is required as security."
+  ]
+},
+{
+  "tag": "conditions_apply_pensioner_loan",
+  "patterns": [
+    "What conditions apply to the Pensioner’ Loan Scheme?"
+  ],
+  "responses": [
+    "Conditions apply. Smart Bank holds the authority to change, add, or revise any term and condition in this facility."
+  ]
+},
+
+{
+  "tag": "personal_loan",
+  "patterns": [
+    "What is the Smart Bank Personal Loan about?",
+    "Tell me about the Personal Loan offered by Smart Bank."
+  ],
+  "responses": [
+    "The Smart Bank Personal Loan allows you to get closer to your dreams and goals by meeting your financial needs. You can use it for unexpected expenses, a dream holiday, school or college fees, wedding expenditure, home improvement expenses, or even to purchase consumer durables."
+  ]
+},
+{
+  "tag": "features_personal_loan",
+  "patterns": [
+    "What are the features of the Smart Bank Personal Loan?"
+  ],
+  "responses": [
+    "The features of the Smart Bank Personal Loan include simplified documentation, competitive rates, transparency, and availability for a variety of needs."
+  ]
+},
+{
+  "tag": "how_to_apply_personal_loan",
+  "patterns": [
+    "How can I apply for the Smart Bank Personal Loan?"
+  ],
+  "responses": [
+    "You can apply for the Smart Bank Personal Loan by clicking on the Apply Online button or visiting any Smart Bank Branch. Complete the online application and once done, click on the Submit button. You will then receive an email or telephone call to visit the branch with the required documents."
+  ]
+},
+{
+  "tag": "eligibility_personal_loan",
+  "patterns": [
+    "Who is eligible for the Smart Bank Personal Loan?"
+  ],
+  "responses": [
+    "To be eligible for the Smart Bank Personal Loan, an applicant should be in the age group of 18-55. Salaried employees belonging to specific categories are eligible, including permanent employees of Government Service/Statutory Bodies with a take-home salary of LKR 30,000 or more, and employees of private sector entities listed by the bank with a take-home salary of LKR 40,000 or more."
+  ]
+},
+{
+  "tag": "documents_required_personal_loan",
+  "patterns": [
+    "What documents are required for the Smart Bank Personal Loan?"
+  ],
+  "responses": [
+    "For the Smart Bank Personal Loan, you need to provide a loan application, a letter from your employer confirming service, position & salary, Form No. 375, and proof of identification (NIC/Passport)."
+  ]
+},
+{"tag": "overdraft_facilities",
+"patterns": [
+  "What are overdraft facilities?",
+  "How does an overdraft work?",
+  "Can you provide information about overdrafts?",
+  "Tell me about overdraft options at Smart Bank."
+],
+"responses": [
+  "Overdraft facilities at Smart Bank offer a convenient way to manage your cash flow at competitive interest rates. An overdraft is linked to your current account, allowing you to borrow funds up to a predetermined limit. You have the flexibility to use only the amount you need, and you're charged interest only on the utilized portion. Sole proprietors can also apply for an overdraft or increase their limits."
+]
+
+},
+{
+  "tag":"Greeting",
+ "patterns":["Hi",
+ "Hello",
+ "Hi there"],
+ "responses":"Hi Welcome to the Smart bank"}
+  ]}
+  
